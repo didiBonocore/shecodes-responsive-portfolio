@@ -30,6 +30,7 @@ body {
 .hero p {
     font-weight: bold;
     font-size: 2.25rem;
+    line-height: 1.8rem;
 }
 
 .hero h1 {
@@ -41,7 +42,7 @@ body {
 .hero h2 {
     font-weight: bold;
     font-size: 1.5rem;
-    line-height: 2;
+    line-height: 4rem;
 }
 
 .btn {
@@ -49,4 +50,42 @@ body {
     color: var(--default-color);
     padding: 15px 30px;
     border-radius: 1rem;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+    border: 3px solid var(--primary-color);
+}
+
+.project-description, .project-image {
+    padding: 120px 60px;
+}
+
+.project-image {
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+}
+
+.home-img {
+    border: 6px solid var(--default-color);
+    border-radius: 4px;
+    
+}
+
+.project-description h2 {
+    font-family: var(--heading-font);
+    font-size: 4rem;
+}
+
+.project-description a {
+    background-color: var(--default-color);
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 1rem;
+}
+
+.project-description a:hover {
+    background-color: white;
+    border: 3px solid var(--default-color);
 }
