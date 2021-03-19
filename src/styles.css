@@ -90,3 +90,31 @@ body {
     border: 3px solid var(--default-color);
     color: var(--text-color);
 }
+
+.session-container {
+    padding: 160px 40px;
+}
+
+.session-content {
+    margin: 30px;
+}
+
+.session-content h1 {
+    font-family: var(--heading-font);
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.session-content h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.session-content p {
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+.session-container img {
+    border-radius: 12px;
+}
